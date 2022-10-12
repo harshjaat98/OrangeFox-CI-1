@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Device
-export TWRP_BRANCH="Bg"
-export DT_LINK="https://github.com/Arafattex/S-Vendor-Twrp-Tree-for-mt6768 -b Lancelot_bot2"
+export TWRP_BRANCH="android-13"
+export DT_LINK="https://github.com/harshjaat98/twrp_realme_RMX2001 -b android-11"
 
-export DEVICE="lancelot"
-export OEM="xiaomi"
+export DEVICE="RMX2001"
+export OEM="realme"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
