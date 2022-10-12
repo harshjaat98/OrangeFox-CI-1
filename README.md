@@ -1,4 +1,4 @@
-# 🦊 OrangeFox Recovery CI
+# 🦊 OrangeFox Recovery
 A Free CI to Build OrangeFox
 
 ## How to Use?
