@@ -34,7 +34,7 @@ echo -e \
 ✔️ The Build has been Triggered!
 
 📱 Device: "${DEVICE}"
-🖥 Build System: "${FOX_BRANCH}"
+🖥 Build System: "${TWRP_BRANCH}"
 🌲 Logs: <a href=\"https://cirrus-ci.com/build/${CIRRUS_BUILD_ID}\">Here</a>
 " > tg.html
 
