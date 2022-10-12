@@ -1,6 +1,6 @@
 env:
     # Twrp Sync Repository
-    TWRP_SYNC: https://github.com/SHRP/manifest.git
+    TWRP_SYNC: https://github.com/TeamWin/android_bootable_recovery
 
     # Config
     CONFIG: config.sh
