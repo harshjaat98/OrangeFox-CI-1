@@ -1,16 +1,12 @@
 env:
-    # Twrp Sync Repository
-    TWRP_SYNC: https://github.com/Arafattex/platform_manifest_twrp_aosp.git
-
+    # OrangeFox Sync Repository
+    TWRP_SYNC: https://github.com/TeamWin/android_bootable_recovery
     # Config
     CONFIG: config.sh
 
     # Telegram
-    TG_CHAT_ID: 1119385461
-    TG_TOKEN: 2044609608:AAE-lWE9ZXhcLVcWKj5F4DMDYFU7eFIQOm0
-
-    # Cirrus Specific Vars (Do *NOT* Change)
-    CIRRUS_SHELL: bash
+    TG_CHAT_ID: 5775634073
+    TG_TOKEN: 5775634073:AAEU7xWzDSvuWnKQU_GHJHIN6WGAf6RwR4k
 
 task:
   name: "Recovery Build"
