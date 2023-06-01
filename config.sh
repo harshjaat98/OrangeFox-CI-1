@@ -2,10 +2,10 @@
 
 # Device
 export TWRP_BRANCH="android-13"
-export DT_LINK="https://github.com/harshjaat98/twrp_realme_RMX2001 -b android-11"
+export DT_LINK="https://github.com/SakthivelNadar/android_recovery_micromax_E7746 -b android-10.0"
 
-export DEVICE="RMX2001"
-export OEM="realme"
+export DEVICE="E7746"
+export OEM="micromax"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
