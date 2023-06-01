@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Device
-export TWRP_BRANCH="Bg"
-export DT_LINK="https://github.com/Arafattex/S-Vendor-Twrp-Tree-for-mt6768 -b Lancelot_bot2"
+export TWRP_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/SakthivelNadar/android_recovery_micromax_E7746 -b android-10.0"
 
-export DEVICE="lancelot"
-export OEM="xiaomi"
+export DEVICE="E7746"
+export OEM="micromax"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
