@@ -44,7 +44,7 @@ telegram_message "${TG_TEXT}"
 echo " "
 
 # Prepare the Build Environment
-source build/envsetup.sh
+source .build/envsetup.sh
 
 
 # export some Basic Vars
