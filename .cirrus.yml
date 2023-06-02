@@ -1,6 +1,6 @@
 env:
     # OrangeFox Sync Repository
-    TWRP_SYNC: https://github.com/TeamWin/android_bootable_recovery
+    TWRP_SYNC: https://gitlab.com/OrangeFox/bootable/Recovery
     # Config
     CONFIG: config.sh
 
