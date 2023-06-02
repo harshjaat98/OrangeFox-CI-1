@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device
-export TWRP_BRANCH="android-13"
+export TWRP_BRANCH="android-12.1"
 export DT_LINK="https://github.com/SakthivelNadar/android_recovery_micromax_E7746 -b android-10.0"
 
 export DEVICE="E7746"
