@@ -4,7 +4,7 @@
 export TWRP_BRANCH="shrp-12.1"
 export DT_LINK="https://github.com/PitchBlackRecoveryProject/android_device_realme_RMX2001-pbrp -b android-10.0"
 
-export DEVICE="rmx2001"
+export DEVICE="RMX2001"
 export OEM="realme"
 
 # Build Target
