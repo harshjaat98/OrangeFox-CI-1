@@ -23,7 +23,7 @@ echo "Uploading the Build..."
 echo "============================"
 
 # Change to the Output Directory
-cd out/target/product/rmx2001
+cd out/target/product/RMX2001
 
 # Set FILENAME var
 FILENAME=recovery.img
