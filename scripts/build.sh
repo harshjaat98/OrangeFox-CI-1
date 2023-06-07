@@ -44,7 +44,7 @@ telegram_message "${TG_TEXT}"
 echo " "
 
 # Prepare the Build Environment
-source .build/envsetup.sh
+source build/envsetup.sh
 
 
 # export some Basic Vars
@@ -52,7 +52,7 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 
 # lunch the target
-lunch omni_${DEVICE}-eng
+lunch twrp_${DEVICE}-eng
     
 # Build the Code
 
