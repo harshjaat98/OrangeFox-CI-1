@@ -1,6 +1,6 @@
 env:
     # Twrp Sync Repository
-    TWRP_SYNC: https://github.com/SHRP/bootable_recovery
+    TWRP_SYNC: https://github.com/SHRP/manifest.git
 
     # Config
     CONFIG: config.sh
