@@ -1,14 +1,13 @@
 env:
     # Twrp Sync Repository
-    TWRP_SYNC: https://github.com/TeamWin/android_bootable_recovery
+    TWRP_SYNC: https://github.com/SHRP/bootable_recovery
 
     # Config
     CONFIG: config.sh
 
     # Telegram
-    TG_CHAT_ID: 1119385461
-    TG_TOKEN: 2044609608:AAE-lWE9ZXhcLVcWKj5F4DMDYFU7eFIQOm0
-
+    TG_CHAT_ID: -1001526603733
+    TG_TOKEN: 5775634073:AAEU7xWzDSvuWnKQU_GHJHIN6WGAf6RwR4k
     # Cirrus Specific Vars (Do *NOT* Change)
     CIRRUS_SHELL: bash
 
