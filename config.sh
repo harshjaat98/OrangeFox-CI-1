@@ -2,7 +2,7 @@
 
 # Device
 export TWRP_BRANCH="shrp-12.1"
-export DT_LINK="https://github.com/PitchBlackRecoveryProject/android_device_realme_RMX2001-pbrp -b android-10.0"
+export DT_LINK="https://github.com/PitchBlackRecoveryProject/android_device_realme_RMX2001-pbrp -b rui1test"
 
 export DEVICE="RMX2001"
 export OEM="realme"
