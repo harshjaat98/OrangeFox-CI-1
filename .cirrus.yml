@@ -1,6 +1,6 @@
 env:
     # Twrp Sync Repository
-    TWRP_SYNC: https://gitlab.com/OrangeFox/Manifest.git
+    TWRP_SYNC: https://gitlab.com/OrangeFox/sync.git
 
     # Config
     CONFIG: config.sh
