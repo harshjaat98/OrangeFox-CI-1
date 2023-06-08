@@ -1,6 +1,6 @@
 env:
     # Twrp Sync Repository
-    TWRP_SYNC: https://gitlab.com/OrangeFox/bootable/Recovery.git
+    TWRP_SYNC: https://gitlab.com/OrangeFox/Manifest.git
 
     # Config
     CONFIG: config.sh
