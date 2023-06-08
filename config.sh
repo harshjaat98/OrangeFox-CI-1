@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Device
-export TWRP_BRANCH="shrp-12.1"
+export TWRP_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/harshjaat98/android_device_realme_RMX2001-pbrp -b rui1test"
 
 export DEVICE="RMX2001"
