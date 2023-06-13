@@ -23,7 +23,7 @@ echo "Uploading the Build..."
 echo "============================"
 
 # Change to the Output Directory
-cd out/target/product/RMX2001
+cd out/target/product/${DEVICE}
 curl -T recovery.img temp.sh
 
 transfer recovery.img > link.txt || { echo "ERROR: Failed to Upload the Build!" && exit 1; }
