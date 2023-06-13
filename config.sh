@@ -4,7 +4,7 @@
 export TWRP_BRANCH="shrp-12.1"
 export DT_LINK="https://github.com/EvilAnsh/twrp_device_realme_RMX2151.git -b android-12.1"
 
-export DEVICE="RMX2001"
+export DEVICE="RMX2151"
 export OEM="realme"
 
 # Build Target
