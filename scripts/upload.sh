@@ -24,10 +24,22 @@ echo "============================"
 
 # Change to the Output Directory
 cd out/target/product/RMX2001
-
 curl -T recovery.img temp.sh
 
-link=curl -T recovery.img temp.sh
+transfer recovery.img > link.txt || { echo "ERROR: Failed to Upload the Build!" && exit 1; }
+# Mirror to temp.sh
+curl -T recovery.img https://temp.sh/recovery.im/20160 > mirror.txt || { echo "WARNING: Failed to Mirror the Build!"; }
+
+DL_LINK=$(cat link.txt | grep Download | cut -d\  -f3)
+MIRROR_LINK=$(cat mirror.txt | grep Download | cut -d\  -f1)
+
+# Show the Download Link
+echo "=============================================="
+echo "Download Link: ${DL_LINK}" || { echo "ERROR: Failed to Upload the Build!"; }
+echo "Mirror: ${MIRROR_LINK}" || { echo "WARNING: Failed to Mirror the Build!"; }
+echo "=============================================="
+
+
 
 # Send the Message on Telegram
 echo -e \
@@ -36,7 +48,7 @@ echo -e \
 ✅ Build Completed Successfully!
 📱 Device: "${DEVICE}"
 🖥 Build System: "${TWRP_BRANCH}"
-⬇️ Download Link: <a href=\"${link}\">Here</a>
+⬇️ Download Link: <a href=\"${DL_LINK}\">Here</a>
 
 📅 Date: "$(date +%d\ %B\ %Y)"
 ⏱ Time: "$(date +%T)"
