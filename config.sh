@@ -2,7 +2,7 @@
 
 # Device
 export TWRP_BRANCH="shrp-12.1"
-export DT_LINK="https://github.com/harshjaat98/twrp_device_realme_RMX2001 -b a12.1-R6"
+export DT_LINK="https://github.com/harshjaat98/twrp_device_realme_RMX2001 -b shrp-r6"
 
 export DEVICE="RMX2001"
 export OEM="realme"
