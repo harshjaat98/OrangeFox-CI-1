@@ -31,4 +31,4 @@ task:
 
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutes)
-      - curl https://raw.githubusercontent.com/harshjaat98/OrangeFox-CI-1/shrp/scripts/upload.sh | bash
+      - curl https://raw.githubusercontent.com/harshjaat98/OrangeFox-CI-1/shrpR7/scripts/upload.sh | bash
